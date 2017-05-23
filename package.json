@@ -1,0 +1,28 @@
+{
+  "name": "crawl-cli",
+  "version": "0.1.0",
+  "description": "A Node crawler/scrape for retrieving data from websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "babel src -d build"
+  },
+  "bin": {
+    "crawl": "./src/index.js"
+  },
+  "keywords": [
+    "crawler",
+    "node",
+    "expressjs",
+    "webcrawler",
+    "cheerio",
+    "request"
+  ],
+  "author": "Felipe Augusto Trindade",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  }
+}
