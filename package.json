@@ -4,11 +4,10 @@
   "description": "A Node crawler/scrape for retrieving data from websites",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
-    "build": "babel src -d build"
+    "test": "npm test"
   },
   "bin": {
-    "crawl": "./src/index.js"
+    "crawl": "./src/crawl.js"
   },
   "keywords": [
     "crawler",
@@ -22,6 +21,8 @@
   "license": "ISC",
   "dependencies": {
     "cheerio": "^0.22.0",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
     "express": "^4.15.3",
     "request": "^2.81.0"
   }
