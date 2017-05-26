@@ -1,7 +1,7 @@
 # Crawler-CLI
 
 A crawler made to retrieve websites data.
-**Still in a ridiculously early development stage. **
+__Still in a ridiculously early development stage.__
 
     npm install -g
     crawl or crawl -t <target>

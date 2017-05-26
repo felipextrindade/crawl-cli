@@ -1,6 +1,6 @@
 {
   "name": "crawl-cli",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "description": "A Node crawler/scrape for retrieving data from websites",
   "main": "index.js",
   "scripts": {
