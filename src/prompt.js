@@ -1,4 +1,4 @@
-var prompt = function(question, callback) {
+var prompt = function (question, callback) {
     var stdin = process.stdin,
         stdout = process.stdout
 
